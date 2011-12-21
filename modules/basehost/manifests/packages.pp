@@ -19,7 +19,7 @@ class basehost::packages {
 
   yumrepo { house:
     baseurl  => 'http://files.house/repo/fedora/$releasever/$basearch',
-    name     => 'House package repository',
+    descr    => 'House package repository',
     enabled  => 1,
     gpgcheck => 1,
   }
