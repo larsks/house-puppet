@@ -1,0 +1,3 @@
+[submodule "modules/libvirt"]
+	path = modules/libvirt
+	url = git://github.com/seasac-ops/puppetlabs-libvirt.git
