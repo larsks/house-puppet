@@ -6,6 +6,7 @@ node 'files.house' inherits default {
   include libvirt
   include apache
   include samba
+  include krb5-server
 
   $packages = [
     qemu-kvm,
