@@ -1,5 +1,6 @@
 class basehost::packages {
   $packages = [
+    puppet,
     man-db,
     bc,
     ethtool,

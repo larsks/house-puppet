@@ -3,6 +3,7 @@ class basehost::services {
   require basehost::config
 
   $services = [
+    puppet,
     sshd,
     network,
   ]
