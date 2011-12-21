@@ -1,7 +1,10 @@
+node default {
+  include basehost
+}
+
 node 'files' {
   include libvirt
   include apache
-  include screen
   include samba
 
   include node-files

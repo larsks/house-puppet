@@ -18,19 +18,6 @@ class node-files {
     virt-top,
   ]
 
-  $services = [
-    network,
-    sshd,
-  ]
-
   package { $packages: ensure => installed }
-  service { $services:
-    ensure => running,
-    enable => true,
-  }
-
-  file { '/etc/sysconfig/selinux':
-          content => "SELINUX=disabled\n",
-  }
 }
 

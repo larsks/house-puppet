@@ -2,7 +2,12 @@ class basehost::services {
   require basehost::packages
   require basehost::config
 
-  service { sshd:
+  $services = [
+    sshd,
+    network,
+  ]
+
+  service { $services:
     ensure => running,
     enable => true,
   }
