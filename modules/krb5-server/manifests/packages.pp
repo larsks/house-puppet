@@ -3,5 +3,5 @@ class krb5-server::packages {
 		krb5-server,
 	]
 
-	package { : ensure => installed }
+	package { $packages: ensure => installed }
 }
