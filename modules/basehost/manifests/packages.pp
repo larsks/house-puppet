@@ -5,6 +5,8 @@ class basehost::packages {
     bc,
     ethtool,
     vim-enhanced,
+    nc,
+    socat,
     git,
     strace,
     autofs,
