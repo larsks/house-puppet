@@ -1,0 +1,43 @@
+#!/bin/sh
+
+cd $(git rev-parse --show-toplevel)
+mkdir -p modules/$1/{files,manifests}
+
+cat > modules/$1/manifests/init.pp <<EOF
+class $1 {
+	include $1::packages
+	include $1::config
+	include $1::services
+}
+EOF
+
+cat > modules/$1/manifests/config.pp <<EOF
+class $1::config {
+	require $1::packages
+}
+EOF
+
+cat > modules/$1/manifests/services.pp <<EOF
+class $1::services {
+	require $1::packages
+	require $1::config
+
+	\$service = [
+	]
+
+	service { \$services:
+		ensure => running,
+		enable => true,
+	}
+}
+EOF
+
+cat > modules/$1/manifests/packages.pp <<EOF
+class $1::packages {
+	\$packages = [
+	]
+
+	package { \$packages: ensure => installed }
+}
+EOF
+
