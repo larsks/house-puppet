@@ -8,7 +8,6 @@ class basehost::packages {
     git,
     strace,
     autofs,
-    openssh-server,
     openssh-clients,
     wireshark,
     lrzsz,

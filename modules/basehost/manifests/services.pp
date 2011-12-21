@@ -4,7 +4,6 @@ class basehost::services {
 
   $services = [
     puppet,
-    sshd,
     network,
   ]
 
