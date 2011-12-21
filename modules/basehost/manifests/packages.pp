@@ -14,7 +14,6 @@ class basehost::packages {
     gcc,
     kernel-devel,
     tcpdump,
-    screen,
     bind-utils,
   ]
 
