@@ -1,0 +1,80 @@
+-----BEGIN CERTIFICATE-----
+MIIC/jCCAmegAwIBAgIJAKYza1D5gKL5MA0GCSqGSIb3DQEBBQUAMF4xCzAJBgNV
+BAYTAlVTMQswCQYDVQQIEwJNQTEQMA4GA1UEBxMHQmVsbW9udDETMBEGA1UEChMK
+b2RkYml0LmNvbTEbMBkGA1UEAxMSb2RkYml0LmNvbSByb290IGNhMB4XDTExMTIy
+MjAzMTUxMloXDTIxMTIxOTAzMTUxMlowXjELMAkGA1UEBhMCVVMxCzAJBgNVBAgT
+Ak1BMRAwDgYDVQQHEwdCZWxtb250MRMwEQYDVQQKEwpvZGRiaXQuY29tMRswGQYD
+VQQDExJvZGRiaXQuY29tIHJvb3QgY2EwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJ
+AoGBAJ50lFt83Nhs+QA45ydW+mUtUXjXNgkbMvg2PPNHDuAwVORQZYwT8/wg2X5x
+nG4Rt/nZQmqdsJKLl9Oj4wuIeBEH4522nzH0IxtkwenqpwwEv6ihk5IaOW0qkaRE
+0QEsrtDsW3axgiH8oUDKNMKkS1vMxUKiTw5Q6dFw3tteled3AgMBAAGjgcMwgcAw
+HQYDVR0OBBYEFF5W4F2nY/L1B8susvjVGf2sCfM1MIGQBgNVHSMEgYgwgYWAFF5W
+4F2nY/L1B8susvjVGf2sCfM1oWKkYDBeMQswCQYDVQQGEwJVUzELMAkGA1UECBMC
+TUExEDAOBgNVBAcTB0JlbG1vbnQxEzARBgNVBAoTCm9kZGJpdC5jb20xGzAZBgNV
+BAMTEm9kZGJpdC5jb20gcm9vdCBjYYIJAKYza1D5gKL5MAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQEFBQADgYEAjCnE3DJA7Ds0LdOAouJiEFV4ykjYY7UB0uek4hTy
+8RC2/04i7dPRU8df2H58vTFJel+R9zfCxyFGcxCG1+pCrAp1Vx5WYvzsSKmPLtYE
+Q82Yc3H+iwb2VMSpulGfXuJs6yEflI8w2+UD6eu7mCA4PTt/nwT9+9wC7AvjhM0e
+kNc=
+-----END CERTIFICATE-----
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 1 (0x1)
+        Signature Algorithm: sha1WithRSAEncryption
+        Issuer: C=US, ST=MA, L=Belmont, O=oddbit.com, CN=oddbit.com root ca
+        Validity
+            Not Before: Dec 22 03:15:12 2011 GMT
+            Not After : Dec 19 03:15:12 2021 GMT
+        Subject: C=US, ST=MA, L=Belmont, O=oddbit.com, CN=oddbit.com host ca
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (1024 bit)
+                Modulus:
+                    00:a8:a7:82:c1:51:98:4a:dd:e6:92:88:3a:68:52:
+                    ee:6e:7b:50:dd:b6:42:e7:63:61:3b:b8:f1:0f:d4:
+                    7f:84:96:e9:bf:9b:e3:92:be:09:c4:8e:4d:00:0e:
+                    6e:48:f1:3f:34:7e:e9:39:dc:f4:9d:a8:45:26:70:
+                    d6:79:0f:33:77:ee:d8:1e:e9:0c:ae:50:d6:ce:4e:
+                    c7:dd:25:66:2e:bf:1f:80:ff:1f:a1:68:22:7a:4f:
+                    20:71:02:af:21:96:6e:55:7e:0d:62:b8:e5:c9:8d:
+                    6b:2d:29:7b:78:d4:a4:eb:bf:41:df:65:31:83:e9:
+                    e9:a8:be:42:95:5a:f8:09:ab
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Subject Key Identifier: 
+                67:AE:60:B5:BE:7A:ED:FE:19:3F:C0:95:E2:2A:84:BC:38:A9:86:C5
+            X509v3 Authority Key Identifier: 
+                keyid:5E:56:E0:5D:A7:63:F2:F5:07:CB:2E:B2:F8:D5:19:FD:AC:09:F3:35
+                DirName:/C=US/ST=MA/L=Belmont/O=oddbit.com/CN=oddbit.com root ca
+                serial:A6:33:6B:50:F9:80:A2:F9
+
+            X509v3 Basic Constraints: 
+                CA:TRUE
+    Signature Algorithm: sha1WithRSAEncryption
+        43:fb:09:bd:4c:38:44:e3:fb:56:79:22:23:5b:e9:cd:54:0c:
+        23:5b:2f:7e:f6:f9:be:06:3a:19:c7:dd:92:02:ce:2e:1d:43:
+        af:b3:42:da:76:0f:25:76:01:f7:82:fa:38:4c:06:08:a2:2c:
+        0f:52:99:a0:54:08:33:39:4b:28:c8:92:01:6e:26:3f:7c:8e:
+        87:6d:1c:e9:ac:cc:c8:22:d9:9c:86:9a:da:66:92:37:c8:58:
+        94:ee:30:ba:bc:14:db:1e:8f:8b:b2:bd:e9:0a:1a:bd:00:f4:
+        a8:1e:49:a4:f6:e3:31:df:39:4b:bb:03:74:42:a0:63:d6:34:
+        f3:62
+-----BEGIN CERTIFICATE-----
+MIIC9jCCAl+gAwIBAgIBATANBgkqhkiG9w0BAQUFADBeMQswCQYDVQQGEwJVUzEL
+MAkGA1UECBMCTUExEDAOBgNVBAcTB0JlbG1vbnQxEzARBgNVBAoTCm9kZGJpdC5j
+b20xGzAZBgNVBAMTEm9kZGJpdC5jb20gcm9vdCBjYTAeFw0xMTEyMjIwMzE1MTJa
+Fw0yMTEyMTkwMzE1MTJaMF4xCzAJBgNVBAYTAlVTMQswCQYDVQQIEwJNQTEQMA4G
+A1UEBxMHQmVsbW9udDETMBEGA1UEChMKb2RkYml0LmNvbTEbMBkGA1UEAxMSb2Rk
+Yml0LmNvbSBob3N0IGNhMIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCop4LB
+UZhK3eaSiDpoUu5ue1DdtkLnY2E7uPEP1H+Elum/m+OSvgnEjk0ADm5I8T80fuk5
+3PSdqEUmcNZ5DzN37tge6QyuUNbOTsfdJWYuvx+A/x+haCJ6TyBxAq8hlm5Vfg1i
+uOXJjWstKXt41KTrv0HfZTGD6emovkKVWvgJqwIDAQABo4HDMIHAMB0GA1UdDgQW
+BBRnrmC1vnrt/hk/wJXiKoS8OKmGxTCBkAYDVR0jBIGIMIGFgBReVuBdp2Py9QfL
+LrL41Rn9rAnzNaFipGAwXjELMAkGA1UEBhMCVVMxCzAJBgNVBAgTAk1BMRAwDgYD
+VQQHEwdCZWxtb250MRMwEQYDVQQKEwpvZGRiaXQuY29tMRswGQYDVQQDExJvZGRi
+aXQuY29tIHJvb3QgY2GCCQCmM2tQ+YCi+TAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBBQUAA4GBAEP7Cb1MOETj+1Z5IiNb6c1UDCNbL372+b4GOhnH3ZICzi4dQ6+z
+Qtp2DyV2AfeC+jhMBgiiLA9SmaBUCDM5SyjIkgFuJj98jodtHOmszMgi2ZyGmtpm
+kjfIWJTuMLq8FNsej4uyvekKGr0A9KgeSaT24zHfOUu7A3RCoGPWNPNi
+-----END CERTIFICATE-----
