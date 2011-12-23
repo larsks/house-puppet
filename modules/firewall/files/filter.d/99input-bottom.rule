@@ -1,0 +1,4 @@
+-A INPUT -m pkttype --pkt-type broadcast -j DROP
+-A INPUT -m pkttype --pkt-type multicast -j DROP
+-A INPUT -m limit --limit 1/s -j LOG --log-prefix "[INPUT] "
+-A INPUT -j REJECT --reject-with icmp-host-prohibited

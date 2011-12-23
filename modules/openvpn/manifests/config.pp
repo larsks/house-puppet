@@ -1,5 +1,6 @@
 class openvpn::config {
 	require openvpn::packages
+	include firewall
 
 	File {
 		owner => root,
@@ -34,4 +35,9 @@ class openvpn::config {
 	file { '/var/log/openvpn':
 		ensure => directory,
 	}
+
+	firewall::rule { '10openvpn.rule':
+		source => 'puppet:///modules/openvpn/openvpn.rule',
+	}
 }
+
