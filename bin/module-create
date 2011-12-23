@@ -22,7 +22,7 @@ class $1::services {
 	require $1::packages
 	require $1::config
 
-	\$service = [
+	\$services = [
 	]
 
 	service { \$services:
