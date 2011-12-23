@@ -23,7 +23,7 @@ class basehost::packages {
     baseurl  => 'http://files.house/repo/fedora/$releasever/$basearch',
     descr    => 'House package repository',
     enabled  => 1,
-    gpgcheck => 1,
+    gpgcheck => 0,
   }
 
   package { $packages:
