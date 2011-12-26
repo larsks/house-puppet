@@ -4,7 +4,6 @@ class krb5-server::services {
 
 	$services = [
 		kadmin,
-		kprop,
 		krb5kdc,
 	]
 
