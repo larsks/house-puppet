@@ -1,5 +1,6 @@
 node default {
   include basehost
+  include puppet
 }
 
 node 'files.house' inherits default {
