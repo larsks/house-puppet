@@ -1,6 +1,5 @@
 class sshd::config {
   require sshd::packages
-  include firewall
 
   file { '/etc/ssh/sshd_config':
     source => 'puppet:///modules/sshd/sshd_config',
@@ -10,8 +9,5 @@ class sshd::config {
     notify => Service['sshd'],
   }
 
-	firewall::rule { '10sshd.rule':
-		source => 'puppet:///modules/sshd/sshd.rule',
-	}
 }
 
